@@ -1,0 +1,29 @@
+pip
+wandb==0.14
+transformers
+git+https://github.com/xingyaoww/datasets
+torch==1.13.1
+flax==0.6.4
+jax-smi
+# From T5x
+# https://github.com/google-research/t5x/blob/10da41308e756da0e68dfc12ededb18cc603714f/setup.py#L48
+clu==0.0.8
+jestimator==0.3.3
+numpy==1.24.2
+chex==0.1.6
+orbax==0.1.3
+optax==0.1.4
+jax[tpu]==0.4.2 -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+jaxlib==0.4.2
+https://storage.googleapis.com/cloud-tpu-tpuvm-artifacts/wheels/libtpu-nightly/libtpu_nightly-0.1.dev20230124-py3-none-any.whl
+absl-py
+seqio
+cached_property
+tensorflow-cpu==2.11.0
+tensorstore>=0.1.20
+joblib
+gcsfs
+streamlit
+spacy
+flask
+gunicorn
