@@ -30,7 +30,7 @@ python3 leti/scripts/data/process_gsm8k_pal.py \
 ### Big-Bench-Hard
 ```bash
 mkdir external
-git clone https://github.com/google/BIG-bench.git
+git clone https://github.com/suzgunmirac/BIG-Bench-Hard.git
 cd ..
 
 python3 leti/scripts/data/process_bbh.py \
