@@ -18,7 +18,7 @@ You can prepare datasets for training and evaluation following instructions in [
 
 ## Model
 
-Since the training and evaluation code is implemented using Jax/Flax, you will need to convert huggingface model checkpoints (pytorch) into [T5X](https://github.com/google-research/t5x) format, following instructions in [docs/MODEL.md](docs/MODEL.md).
+Since the training and evaluation code is implemented using Jax/Flax, you will need to convert huggingface model checkpoints (pytorch) into [T5X](https://github.com/google-research/t5x) format, following instructions in [docs/MODEL.md](docs/MODEL.md). We release the 350M and 2B model checkpoints [here](https://huggingface.co/xingyaoww/LeTI).
 
 ## Training and Evaluation
 
